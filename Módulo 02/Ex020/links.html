@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        } 
+
+        a:visited{
+            color: rgb(0, 0, 0);
+        } 
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(255, 73, 73);
+        }
+
+        a:active{
+            color: blue;
+        } 
+
+
+        .especial::before{
+        content: '♘';
+        }
+       
+        .especial::after{
+        content: '♞';
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PL6Jz-JGehwchZlCN-tl8QtWrFPvJSQVv5&index=22https://www.youtube.com/watch?v=vMlrcOVr7po&list=PL6Jz-JGehwchZlCN-tl8QtWrFPvJSQVv5&index=22">Repositório GITHUB</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PL6Jz-JGehwchZlCN-tl8QtWrFPvJSQVv5&index=22" class="especial">Canal do Youtube</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PL6Jz-JGehwchZlCN-tl8QtWrFPvJSQVv5&index=22">Site do CursoemVideo</a></li>
+    </ul>
+
+
+</body>
+</html>

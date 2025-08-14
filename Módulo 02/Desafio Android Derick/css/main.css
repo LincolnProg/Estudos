@@ -1,0 +1,80 @@
+@import url(style.css);
+
+
+
+
+main {
+  padding-top: 0px 10px;
+  margin: 0px 500px;
+  background-color: #ffffff;
+  text-indent: 3%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main > h1, h2 {
+    text-indent: 3%;
+    font-family: Android; 
+    color: #1A5C39;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #C6EBD7, #DFF4E8, #F6FCF9, #ffffff ); 
+    margin-left: 15px;
+}
+
+main > p {
+    margin-left: 15px;
+}
+
+
+main > img {
+   width: 95%;
+   
+
+}
+
+main > div   {
+   margin: 0px 300px;
+}
+
+#sessaoVerde  {
+    background-color: #1A5C39;
+}
+
+main > section > iframe {
+  margin: 17px 1px;
+  width: 95%;
+}
+
+b {
+    color: #2FA866;
+}
+
+main > div > img {
+    width: 100%;
+}
+
+#sessao {
+    margin: 20px 30px;
+    background-color: #C5EBD6;
+    border-radius: 10px; 
+    box-shadow: -2px 2px 5px 0px #c9d3cd;
+}
+
+
+#sessao > h3 {
+    background-color: #2FA866;
+    color: #ffffff;
+    border-radius: 8px; 
+}
+
+#sessao > div {
+    display: inline-block; 
+    margin: 0px 20px; 
+}
+
+#ultimo {
+    padding-bottom: 50px;
+}
+
+

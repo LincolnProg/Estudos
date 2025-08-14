@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 25px;
+        }
+
+        /* HEADER E CABEÇALHO */
+
+        nav {
+            height: 200px;
+            margin: 25px;
+        }
+
+        nav>h1 {
+            padding-top: 40px;
+            margin: 20px;
+        }
+
+        header {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+
+        ul {
+            background-color: #626562;
+            padding: 30px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+        }
+
+
+        a {
+            text-decoration: none;
+            margin-left: 50px;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* MAIN , SECTIONS E ARTICLES */
+
+        main {
+            background-color: white;
+        }
+
+        section {
+            background-color: #D1D3D1;
+        }
+
+        #noticias {
+            background-color: white;
+        }
+
+        h2 {
+            padding: 20px;
+            font-weight: 100;
+            color: #626562;
+        }
+
+        section {
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-top: 20px;
+        }
+
+        section>article {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        aside {
+            background-color: #A2A5A2;
+        }
+
+        /* footer */
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 0px; 
+            height: 50px;
+            text-align: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <h1>MEU SITE</h1>
+
+            <ul>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="noticias">
+            <h2>Esportes Politica e Religião</h2>
+        </section>
+
+        <section>
+
+            <article>
+                <h1>NOTICIAS SOBRE O BRASIL</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at cupiditate animi modi ipsum nam esse
+                    voluptatem. Libero eos maiores adipisci eveniet. Sapiente saepe accusantium soluta asperiores
+                    delectus laborum eligendi?</p>
+
+                <aside>
+                    <p>Escrito por roberto dinamite</p>
+                </aside>
+            </article>
+
+
+
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <footer>
+        DESENVOLVIDO POR DERICK
+    </footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dipositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="./Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="./Imagens/foto-m.png" type="image/png">
+        <img src="./Imagens/foto-g.png" alt="Foto Grande Flexível">
+    </picture>
+    <!--NESSE CASO EM ESPECÍFICO A EXPLICAÇÃO É QUE, A IMG É PRA CARREGAR A IMAGEM NORMAL, E O SOURCE É CASO A IMAGEM SEJA MENOR QUE 1000PX ELA CARREGA A IMAGEM MÉDIA-->
+</body>
+</html>

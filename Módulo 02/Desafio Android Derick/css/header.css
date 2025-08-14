@@ -1,0 +1,35 @@
+@import url(style.css);
+
+
+header {
+    height: 180px;
+    text-align: center;
+    color: #ffffff; 
+    background-image: linear-gradient(to bottom, #38CA79, #288D55, #1A5C38 );
+}
+
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+header > p {
+    margin-top: -15px; 
+    margin-bottom: 42px;
+    font-size: smaller;
+    color: #7FBB9A; 
+}
+
+
+nav > p {
+    display: inline;
+    
+    margin-right: 1600px; 
+
+}
+
+nav>p:hover {
+    background-color: #1A5C38;
+}

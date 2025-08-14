@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 
+ID = # (Só posso um ID no documento )
+Class = . (Posso várias vezes nos elmetnos ) 
+
+
+*/
+
+body{
+    background-color: #174B50;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+h1{
+    color: #216B72; 
+}
+
+h2{
+    color: rgba(2, 255, 192, 0.555); ;
+}
+
+#principal {
+    color: #3FCBD8;
+    background-color:#2B8B94; 
+    text-align: center;
+}
+
+
+.basico {
+ color: #020607;
+ background-color: white;
+}
+
+.intermediario{
+ color: #272a85;
+ background-color: white;
+
+}
+
+.avancado{
+ color: #2b0d0d;
+ background-color: white;
+
+}
